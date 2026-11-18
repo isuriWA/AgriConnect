@@ -1,0 +1,44 @@
+
+//.NET build output 
+[Bb]in/
+[Oo]bj/
+[Pp]ublish/
+*.nupkg
+
+//Visual Studio / Rider 
+.vs/
+.idea/
+*.user
+*.suo
+*.userprefs
+
+//VS Code
+.vscode/
+
+//Logs and test output 
+*.log
+logs/
+TestResults/
+
+//Secrets and personal config 
+secrets.json
+appsettings.Local.json
+appsettings.*.local.json
+.env
+.env.*
+*.pfx
+
+//Local database files and backups 
+*.mdf
+*.ldf
+*.bak
+*.sqlite
+
+//Frontend tooling
+node_modules/
+dist/
+
+//Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
